@@ -11,7 +11,7 @@
  * Performance: Execution time must not exceed 0.3 ms
  */
 
-const perf = require('./perf')
+const perf = require('./utils/perf')
 const users = require('./data/users')
 
 const getDupes = () => {
