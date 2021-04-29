@@ -10,3 +10,13 @@
  *
  * Performance: Execution time must not exceed 0.1 ms
  */
+
+const perf = require('./perf')
+const users = require('./data/users')
+
+const groupByAddress = () => {
+  // code here...
+}
+
+console.log(groupByAddress())
+perf(groupByAddress)
